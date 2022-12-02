@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM arm32v7/python:2.7.13-jessie
 
 WORKDIR /flask-app
 
